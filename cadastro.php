@@ -30,7 +30,19 @@
                     <br />
 
                 </div>
+                    <!-- Informar Nivel Usuário -->
+                <br />
+                <div>
+                    <label class="label-title">
+                        Sou*:
 
+
+                        <select id="id_nivel" name="txtnivel">
+                            <option value="Estudante" required>Estudante</option>
+                            <option value="Professor" required>Professor</option>
+
+                        </select>
+                    </label>
                
 
                     <div class="form-group">
@@ -77,7 +89,7 @@
 
                         <button type="submit" class="btn">Enviar</button>
                         <button type="reset" class="btn">Limpar escolhas</button>
-                        
+                        <button type="button" class="btn" value="Voltar" onClick="history.go(-1)">Voltar</button>
                     </div>
                     
 
